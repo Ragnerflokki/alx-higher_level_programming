@@ -66,3 +66,4 @@ class TestMaxInteger(unittest.TestCase):
         self.assertRaises(TypeError, max_integer, None)
 
 if __name__ == '__main__':
+    unittest.main()
